@@ -9,7 +9,7 @@ function App() {
   const [error, setError] = useState('');
   
 
-  const apiEndpoint = 'http://localhost:8080/bfhl'; 
+  const apiEndpoint = 'https://api-students.netlify.app/bfhl'; 
 
   const handleJsonInput = (e) => {
     setJsonInput(e.target.value);
